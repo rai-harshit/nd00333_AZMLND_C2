@@ -12,7 +12,21 @@ As visible in the above architecture, we can access Azure ML either from the az 
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+1. We start off by uploading and registering the Bank Marketing dataset in the Azure Datastore. The same can be observed in the screenshot below.
+
+![datastore-overview](./screenshots/p2-RegisteredDataset.PNG)
+
+![datastore](./screenshots/p2-BMDataset.PNG)
+
+2. After the dataset is registered, we create an AutoML run and add the above dataset as an input data on which the models train. After about 30 minutes, the AutoML run completes with Voting Ensemble as the best performing model. The same can be observed in the screenshot below.
+
+![automl-run-overview](./screenshots/p2-AutoMLRunCompleted.PNG)
+
+3. We then analyze the performance of the model by looking at its metrics as shown below.
+
+![automl-run-overview](./screenshots/p2-AutoMLBestModel.PNG)
+
+4.
 
 ## Screen Recording
 The screencast of the project is available at the following URL: https://youtu.be/5Pi0KHkiBSo
