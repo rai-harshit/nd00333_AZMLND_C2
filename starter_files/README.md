@@ -19,6 +19,3 @@ The points covered in the screencast are:
   2. Deployed Pipeline
   3. Available AutoML Model
   4. Successful API requests to the endpoint with a JSON payload
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
