@@ -76,3 +76,9 @@ The points covered in the screencast are:
   2. Deployed Pipeline
   3. Available AutoML Model
   4. Successful API requests to the endpoint with a JSON payload
+  
+## Standout Suggestions
+1. From the Data Guardrails section inside the AutoML run, we understand that the data is highly class-imbalanced. To deal with that, we can first try to improve the source data and then try using techniques like Undersampling and Oversampling to deal with this issue.
+2. In future, we could allow the AutoML run to also create Deep Learning models which may result in a model with better accuracy.
+3. We could also let the AutoML run for a longer period and even use a more powerful compute to get better models quickly.
+4. We could also attach a way to send notifications to the users whenever the triggered pipeline faces any technical issue.
