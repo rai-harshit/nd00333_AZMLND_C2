@@ -12,7 +12,13 @@
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+The screencast of the project is available at the following URL: https://youtu.be/5Pi0KHkiBSo
+
+The points covered in the screencast are:
+  1. Working deployed ML model endpoint.
+  2. Deployed Pipeline
+  3. Available AutoML Model
+  4. Successful API requests to the endpoint with a JSON payload
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
