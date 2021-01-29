@@ -1,9 +1,12 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
-# Your Project Title Here
+Bank Marketing Predictor: Training, Publishing and Consumption
 
-*TODO:* Write an overview to your project.
+This project is part of the Udacity Azure ML Nanodegree. In this project, we focus on 3 main steps:
+  1. Creating a pipeline and training a Machine Learning model using AutoML.
+  2. Publishing the pipeline and deploying the trained ML model using the Python SDK and the ML Studio.
+  3. Consuning the deployed model by sending sample JSON data using Python SDK.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
