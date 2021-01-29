@@ -1,4 +1,4 @@
-## Bank Marketing Predictor: Training, Publishing and Consumption
+## Bank Marketing Predictor: Training, Deploying and Consuming the ML model
 
 This project is part of the Udacity Azure ML Nanodegree. In this project, we focus on 3 main steps:
   1. Creating a pipeline and training a Machine Learning model using AutoML.
