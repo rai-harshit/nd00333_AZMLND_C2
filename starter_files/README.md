@@ -1,7 +1,4 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
-Bank Marketing Predictor: Training, Publishing and Consumption
+## Bank Marketing Predictor: Training, Publishing and Consumption
 
 This project is part of the Udacity Azure ML Nanodegree. In this project, we focus on 3 main steps:
   1. Creating a pipeline and training a Machine Learning model using AutoML.
