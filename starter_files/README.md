@@ -6,7 +6,10 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we foc
   3. Consuning the deployed model by sending sample JSON data using Python SDK.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+![architecture-diagram](./screenshots/architecture.png)
+
+As visible in the above architecture, we can access Azure ML either from the az command line interface (CLI) or through the Azure ML Studio. Before we begin training an ML model, its important to fetch the dataset and register it into Azure Datastore for future use. This data is then preprocessed to convert it into a form suitable for training an ML model. After this, we create a new experiment and schedule the model training run on a compute cluster. After the model is trained, it is then deployed on the Azure Container Instance (ACI) and an endpoint is provided with which various external services can interact. We can automate the entire end-to-end model training and deployment process by creating and publishing a Pipeline. Once a pipeline is published, an endpoint is provided using which various external services can kick-off the pipeline run as and when required.
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
